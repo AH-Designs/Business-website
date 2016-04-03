@@ -1,4 +1,26 @@
 .navbar{
-	background:yellow;
-	height:100px;
+	background:$yellow-theme;
+	height:75px;
+	padding-left:30px;
+	width:100%;
+
+}
+
+.navbar-nav{
+	margin-left:80px;
+	margin-top:10px;
+}
+
+.navbar-nav li{
+	padding-left:10px;
+	padding-right:10px;
+
+}
+
+.contact-number{
+	float:right;
+	margin-right:30px;
+}
+.navbar-default .navbar-nav>li>a{
+	color:$main-text;
 }
