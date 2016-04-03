@@ -1,4 +1,10 @@
 
+.page-headers{
+	text-align:center;
+	margin-top:50px;
+	color:$links-text;
+}
+
 .call-now{
 	font-size:50px;
 	color:$main-text;
@@ -16,5 +22,26 @@
 .phone-number{
 	font-size:50px;
 	color:$links-text;
+}
+
+ .services-info p{
+	margin-left:60px;
+	margin-right:60px;
+	margin-top:30px;
+}
+
+.services-info2 p{
+	margin-top:30px;
+	margin-left:160px;
+	margin-right:160px;
+}
+
+.services-info h4{
+	margin-top:30px;
+	color:$links-text;
+}
+
+.read-more{
+	color:$yellow-theme;
 }
 

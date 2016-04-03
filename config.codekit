@@ -75,6 +75,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/maintenance.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4838,
+		"inputAbbreviatedPath": "\/images\/maintenance.png",
+		"outputAbbreviatedPath": "\/images\/maintenance.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/man-toolbelt.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -115,6 +126,28 @@
 		"initialSize": 1298,
 		"inputAbbreviatedPath": "\/images\/twitter-logo.png",
 		"outputAbbreviatedPath": "\/images\/twitter-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/yellow-phone-phone.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 270637,
+		"inputAbbreviatedPath": "\/images\/yellow-phone-phone.jpg",
+		"outputAbbreviatedPath": "\/images\/yellow-phone-phone.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/yellow-phone.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.00058e+07,
+		"inputAbbreviatedPath": "\/images\/yellow-phone.jpg",
+		"outputAbbreviatedPath": "\/images\/yellow-phone.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -537,6 +570,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/services.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/services.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
