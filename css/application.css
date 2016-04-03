@@ -13,8 +13,8 @@
 /*container*/
 /*Footer styling*/
 .navbar {
-  disply: block;
-  margin: 0 auto; }
+  background: yellow;
+  height: 100px; }
 
 /*nav bar styling*/
 /*:HOVER*/
