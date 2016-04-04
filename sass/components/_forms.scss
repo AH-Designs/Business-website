@@ -12,8 +12,66 @@
 	margin-top:50px;
 }
 
+.send-button{
+	margin-top: 21px;
+	width:100px;
+	height: 28px;
+	text-align: center;
+	border-radius:2px;
+	background-color:$yellow-theme;
+	color:$main-text;
+}
+
+.send-button-div{
+	text-align: center;
+	position: relative;
+	bottom:10px;
+}
 
 
 
 /**********************FORM STYLING*********************/
+.contact-form-div{
+	width:600px;
+	position:relative;
+	top:20px;
 
+}
+
+table{
+	position:relative;
+	bottom:10px;
+}
+.contact-form{
+	display:block;
+	margin:0 auto;
+	width:310px;
+}
+
+.name-lable,
+.email-lable,
+.message-lable{
+	font-size:18px;
+	font-weight: bold;
+	margin:20px 10px 10px 0px ;
+
+}
+
+.message-lable{
+	position:relative;
+	bottom:75px;
+}
+
+.name-input,
+.email-input{
+	width:230px;
+	height:30px;
+	margin:10px 10px 10px 0px ;
+}
+
+.message-input{
+	width:230px;
+	height:190px;
+	position:relative;
+	top:10px
+}

@@ -128,6 +128,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/speach-bubble.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26304,
+		"inputAbbreviatedPath": "\/images\/speach-bubble.png",
+		"outputAbbreviatedPath": "\/images\/speach-bubble.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/twitter-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
