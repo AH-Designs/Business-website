@@ -3,13 +3,18 @@
 	text-align:center;
 	padding-top:40px;
 	color:$links-text;
-	
+	font-family:$main-header-font;	
+}
+
+  a .company-logo-link h3 {
+	text-decoration: none;
+	color:$main-text;
 }
 
 .call-now{
 	font-size:50px;
 	color:$main-text;
-
+	font-family:$header-font;
 }
 
 
@@ -18,13 +23,14 @@
 .fix-it{
 	font-size:25.5px;
 	color:$main-text;
-
+	font-family:$header-font;
 }
 
 
 .phone-number{
 	font-size:50px;
 	color:$links-text;
+	font-family:$header-font;
 }
 
  .services-info p{
@@ -37,11 +43,14 @@
 	margin-top:30px;
 	margin-left:160px;
 	margin-right:160px;
+
 }
 
 .services-info h4{
 	margin-top:30px;
 	color:$links-text;
+	font-family:$links-font;
+	font-size:20px;
 }
 
 .read-more{
@@ -51,16 +60,19 @@
 .list-header{
 	color:$links-text;
 	margin-left:-15px;
+	font-family:$links-font;
 }
 
 .contact-para{
 	font-size:15px;
 	margin-bottom:28px;
 	margin-top:28px;
+	font-family:$header-font;
 }
 
 .areas-list li{
 	font-size:17px;
+	font-family:$links-font;
 }
 
 .about-us-para{

@@ -10,6 +10,7 @@
 	background:$blue-theme;
 	border:none;
 	margin-top:50px;
+	font-family:$links-font;
 }
 
 .send-button{
@@ -20,6 +21,7 @@
 	border-radius:2px;
 	background-color:$yellow-theme;
 	color:$main-text;
+	font-family:$main-header-font;
 }
 
 .send-button-div{
@@ -52,8 +54,9 @@ table{
 .email-lable,
 .message-lable{
 	font-size:18px;
-	font-weight: bold;
 	margin:20px 10px 10px 0px ;
+	font-family:$main-header-font;
+
 
 }
 
@@ -67,11 +70,13 @@ table{
 	width:230px;
 	height:30px;
 	margin:10px 10px 10px 0px ;
+	border-color:$yellow-theme;
 }
 
 .message-input{
 	width:230px;
 	height:190px;
 	position:relative;
-	top:10px
+	top:10px;
+	border-color:$yellow-theme;
 }
