@@ -2,15 +2,39 @@
 /*****************************BUTTON STYLING***********************/
 
 .quote-button{
-	height:46px;
-	width:294px;
+	height:45px;
+	width:235px;
 	border-radius:2px;
-	font-size:21px;
 	color:$yellow-theme;
 	background:$blue-theme;
 	border:none;
 	margin-top:50px;
-	font-family:$links-font;
+	@media screen and (max-width: 892px){
+	margin-top:10px;
+	height:40px;
+	width:210px;
+}
+	@media screen and (max-width: 637px){
+	margin-top:10px;
+	height:30px;
+	width:170px;
+	}
+	@media screen and (max-width: 400px){
+	width:147px;
+	display:block;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+}
+
+.quote-button:hover{
+	color:$blue-theme;
+	background:$yellow-theme;
+	height:50px;
+	width:299px;
+	
 }
 
 .send-button{
@@ -24,6 +48,11 @@
 	font-family:$main-header-font;
 }
 
+.send-button:hover{
+	background-color:$main-text;
+	color:$yellow-theme;
+}
+
 .send-button-div{
 	text-align: center;
 	position: relative;
@@ -34,9 +63,15 @@
 
 /**********************FORM STYLING*********************/
 .contact-form-div{
-	width:600px;
+	width:400px;
 	position:relative;
 	top:20px;
+	
+	@media screen and (max-width: 959px){
+	
+	top:160px;
+	height:600px;
+	}
 
 }
 
@@ -46,18 +81,41 @@ table{
 }
 .contact-form{
 	display:block;
+	position:relative;
 	margin:0 auto;
 	width:310px;
-}
+	left:100px;
+	@media screen and (max-width: 955px){
+	position:relative;
+	left:10px;
+	}
+	@media screen and (max-width: 863px){
+	right:5px;
+	}
+	@media screen and (max-width: 753px){
+	right:150px;
+	width:360px;
+	bottom:40px;
+	}
+	@media screen and (max-width: 545px){
+	right:90px;
+	width:300px;
+	}
+	@media screen and (max-width: 470px){
+	left:30px;
+	width:400px;
+	}
 
+}
 .name-lable,
 .email-lable,
 .message-lable{
 	font-size:18px;
 	margin:20px 10px 10px 0px ;
 	font-family:$main-header-font;
-
-
+@media screen and (max-width: 753px){
+	font-size:14px;
+	}	
 }
 
 .message-lable{
@@ -71,6 +129,10 @@ table{
 	height:30px;
 	margin:10px 10px 10px 0px ;
 	border-color:$yellow-theme;
+	@media screen and (max-width: 753px){
+	height:20px;
+	width:180px;
+	}	
 }
 
 .message-input{
@@ -79,4 +141,8 @@ table{
 	position:relative;
 	top:10px;
 	border-color:$yellow-theme;
+	@media screen and (max-width: 753px){
+	
+	width:180px;
+	}
 }

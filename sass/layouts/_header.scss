@@ -4,6 +4,9 @@
 	padding-left:30px;
 	width:100%;
 	margin-bottom:0;
+	@media screen and (max-width: 400px){
+	height:125px;
+	}
 
 }
 
@@ -25,7 +28,32 @@
 	margin-right:30px;
 	font-family:$links-font;
 	font-size:25px;
+
+	@media screen and (max-width: 1150px){
+			display:none;
+			}
 }
+.navbar-toggle.collapsed{
+@media screen and (max-width: 400px){
+	height:55px;
+	width:60px;
+	position:relative;
+	right:20px;
+	top:20px;
+	background-color:$main-text;
+	}
+
+}
+
+span#icon-line{
+@media screen and (max-width: 400px){
+	width:30px; 
+	margin:4px;
+	padding-bottom:5px;
+	background-color:$yellow-theme;
+	}
+}
+
 .navbar-default .navbar-nav>li>a{
 	color:$main-text;
 }

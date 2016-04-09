@@ -1,43 +1,99 @@
 
+/*PAGE HEADERS*/
+
 .page-headers{
 	text-align:center;
 	padding-top:40px;
 	color:$links-text;
-	font-family:$main-header-font;	
+	font-family:$main-header-font;
+	margin-top:0px;	
+	@media screen and (max-width: 960px){
+	color:$yellow-theme;
+	}
 }
+
+/*NAV BAR TYPOGRAPHY*/
 
   a .company-logo-link h3 {
 	text-decoration: none;
 	color:$main-text;
+	
 }
+
+/*CALL TO ACTION TYPOGRAPHY*/
 
 .call-now{
-	font-size:50px;
+	font-size:55px;
 	color:$main-text;
 	font-family:$header-font;
+	@media screen and (max-width: 892px){
+	font-size:40px;
+	}
+	@media screen and (max-width: 637px){
+	font-size:33px;
+	}
+	@media screen and (max-width: 400px){
+	font-size:30px;
+	text-align:center;
+	}
 }
-
-
-
 
 .fix-it{
-	font-size:25.5px;
+	font-size:27px;
 	color:$main-text;
 	font-family:$header-font;
+	@media screen and (max-width: 892px){
+	font-size:19.5px;
+	}
+	@media screen and (max-width: 637px){
+	font-size:16px;
+	}
+	@media screen and (max-width: 400px){
+	font-size:14px;
+	text-align:center;
+	}
 }
 
+.quote-button{
+	font-size:22px;
+	font-family:$links-font;
+	@media screen and (max-width: 892px){
+	font-size:17px;
+	}
+		@media screen and (max-width: 637px){
+	font-size:15px;
+	}
+		@media screen and (max-width: 400px){
+	font-size:14px;
+	}
+}
 
 .phone-number{
-	font-size:50px;
+	font-size:55px;
 	color:$links-text;
 	font-family:$header-font;
+	@media screen and (max-width: 892px){
+	font-size:40px;
+	}
+	@media screen and (max-width: 637px){
+	font-size:33px;
+	}
+	@media screen and (max-width: 400px){
+	font-size:30px;
+	text-align:center;
+	}
 }
 
+.quote-button{
+	}
+
+/*SERVICES PAGE TYPOGRAPHY*/
  .services-info p{
 	margin-left:60px;
 	margin-right:60px;
 	margin-top:30px;
 }
+
 
 .services-info2 p{
 	margin-top:30px;
@@ -57,6 +113,7 @@
 	color:$yellow-theme;
 }
 
+/*CONTACT PAGE TYPOGRAPHY*/
 .list-header{
 	color:$links-text;
 	margin-left:-15px;
@@ -68,12 +125,27 @@
 	margin-bottom:28px;
 	margin-top:28px;
 	font-family:$header-font;
+	@media screen and (max-width: 941px){
+	font-size:12px;
+	margin-top:0px;
+	bottom:50px;
+	position:relative;
+	}
+	@media screen and (max-width: 941px){
+	bottom:5px;
+	}
+	@media screen and (max-width: 890px){
+	width:240px;
+	top:20px;
+	}
 }
 
 .areas-list li{
 	font-size:17px;
 	font-family:$links-font;
 }
+
+/*ABOUT PAGE TYPOGRAPHY*/
 
 .about-us-para{
 	text-align:center;
@@ -82,4 +154,28 @@
 	border-radius:3px;
 	opacity:0.8;
 	padding:9px;
+	width:95%;
+	
+}
+
+p.about-us-para {
+@media screen and (max-width: 911px){
+	font-size:13px;
+	}
+@media screen and (max-width: 758px){
+	font-size:12px;
+	width:98%;
+	}
+@media screen and (max-width: 637px){
+	font-size:10px;
+	
+	}
+
+@media screen and (max-width: 520px){
+	
+	position:relative;
+	bottom:35px;
+
+	}
+
 }

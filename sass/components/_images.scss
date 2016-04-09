@@ -1,12 +1,121 @@
 /*main image*/
 
+.div-main-image{
+	width:100%;
+	height:620px;
+	background-image:url(/images/man-toolbelt.jpg);
+	background-repeat:no-repeat;
+	background-size: cover; 
+		
+			@media screen and (max-width: 1150px){
+			background-image:url("/images/man-toolbelt-1150.jpg");
+			}
+			@media screen and (max-width: 935px) {			
+			background-image:url("/images/man-toolbelt-935.jpg");
+			}
+			@media screen and (max-width: 857px) {
+			background-image:url("/images/man-toolbelt-857.jpg");
+			}
+			@media screen and (max-width: 800px) {
+			background-image:url("/images/man-toolbelt-857.jpg");
+			}
+			@media screen and (max-width: 700px){
+			background-image:url("/images/man-toolbelt-600.jpg");
+			}
+			@media screen and (max-width: 600px) {
+			background-image:url("/images/man-toolbelt-600.jpg");
+			}
+			@media screen and (max-width: 580px){
+			background-image:url("/images/man-toolbelt-580.jpg");
+			}
+			@media screen and (max-width: 445px){
+			background-image:url("/images/man-toolbelt-445.jpg");
+			}
+}
+
+
+
+
+
+
+/*contact page images*/
+
+/*ABOUT PAGE  CONTAINER CONTAINERS */
+
+.div-about-image{
+	width:100%;
+	height:620px;
+	background-image:url(/images/light-wood.jpg);
+	margin-top:0;
+	
+}
+/*CONTACT PAGE*/
+
 .speach-bubble-image{
 	background-image:url(/images/speach-bubble.png);
 	background-repeat:no-repeat;
 	height:400px;
-	width:530px;
+	width:500px;
 	position:relative;
 	left:460px;
 	bottom:170px;
 	opacity:0.8;
+	margin:0;
+	@media screen and (max-width: 1173px){
+	left:300px;
+	}
+	@media screen and (max-width: 959px){
+	left:360px;
+	bottom:50px;
+	height:600px;
+
+	background-image:url(/images/speach-bubble2.png);
+	}
+	@media screen and (max-width: 863px){
+	background-image:url(/images/speach-bubble3.png);
+	left:150px;
+	}
+	@media screen and (max-width: 753px){
+	bottom:100px;
+	left:190px;
+	width:400px;
+	background-image:url(/images/speach-bubble4.png);
+	}
+	@media screen and (max-width: 500px){
+	left:120px;
+	width:400px;
+	}
+	@media screen and (max-width: 545px){
+	right:100px;
+	}
+	@media screen and (max-width: 470px){
+	left:40px;
+	}
 }
+
+.div-contact-image{
+	width:100%;
+	height:620px;
+	background-image:url(/images/yellow-phone.jpg);
+	margin-top:0;
+	background-repeat:no-repeat;
+	background-size: cover; 
+
+	@media screen and (max-width: 1229px){
+	background-image:url("/images/yellow-phone-1229.jpg");
+	}
+	@media screen and (max-width: 1180px){
+	background-image:url("/images/yellow-phone-1080.jpg");
+	}
+	@media screen and (max-width: 960px){
+	background-image:url("/images/yellow-phone-574.jpg");
+	}
+	@media screen and (max-width: 450px){
+	background-image:url("/images/yellow-phone-PHONE.jpg");
+	}
+	@media screen and (max-width: 959px){
+	height:970px;
+	}
+
+}
+
