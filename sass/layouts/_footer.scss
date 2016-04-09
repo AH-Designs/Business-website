@@ -11,18 +11,23 @@ height:100px;
 	display: inline-block;
 	margin-left:0px;
 	margin-right:27px;
+
 }
 
 .social-media{
 	width:100%;
 	text-align: right;
 	padding-top:22px;
-
+  @media screen and (max-width: 579px){
+      text-align:center;
+  }
 }
 
 .linkedin-logo{
 	margin-right: 40px;
 }
+
+
 
 /*sticky footer*/
 

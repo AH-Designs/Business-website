@@ -10,6 +10,7 @@
 	@media screen and (max-width: 960px){
 	color:$yellow-theme;
 	}
+
 }
 
 /*NAV BAR TYPOGRAPHY*/
@@ -64,7 +65,7 @@
 	font-size:15px;
 	}
 		@media screen and (max-width: 400px){
-	font-size:14px;
+	font-size:18px;
 	}
 }
 
@@ -109,8 +110,15 @@
 	font-size:20px;
 }
 
-.read-more{
+.services-info2 h4{
+	color:$links-text;
+	font-family:$links-font;
+}
+
+.read-more p {
 	color:$yellow-theme;
+	
+	
 }
 
 /*CONTACT PAGE TYPOGRAPHY*/
@@ -118,6 +126,9 @@
 	color:$links-text;
 	margin-left:-15px;
 	font-family:$links-font;
+	@media screen and (max-width: 954px){
+	color:$yellow-theme;
+	}
 }
 
 .contact-para{
@@ -125,9 +136,9 @@
 	margin-bottom:28px;
 	margin-top:28px;
 	font-family:$header-font;
-	@media screen and (max-width: 941px){
+	@media screen and (max-width: 960px){
 	font-size:12px;
-	margin-top:0px;
+	margin-top:70px;
 	bottom:50px;
 	position:relative;
 	}
@@ -136,7 +147,14 @@
 	}
 	@media screen and (max-width: 890px){
 	width:240px;
-	top:20px;
+	bottom:20px;
+	}
+	@media screen and (max-width: 400px){
+	font-size:20px;
+	width:268px;
+	text-align:center;
+	font-weight:bold;
+	
 	}
 }
 
