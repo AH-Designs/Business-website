@@ -1,7 +1,8 @@
 
 /*****************************BUTTON STYLING***********************/
 
-.quote-button{
+.quote{
+	&-button{
 	height:45px;
 	width:235px;
 	border-radius:2px;
@@ -9,6 +10,7 @@
 	background:$blue-theme;
 	border:none;
 	margin-top:50px;
+}
 	@media screen and (max-width: 892px){
 	margin-top:10px;
 	height:40px;
@@ -18,7 +20,7 @@
 	margin-top:10px;
 	height:30px;
 	width:170px;
-	}
+}
 	@media screen and (max-width: 400px){
 	width:187px;
 	height:38px;
@@ -28,17 +30,29 @@
 	margin-right:auto;
 }
 
-}
-
-.quote-button:hover{
+&-button:hover{
 	color:$blue-theme;
 	background:$yellow-theme;
 	height:50px;
 	width:299px;
+}
+	@media screen and (max-width: 892px){
+	height:50px;
+	width:225px;
+}
+	@media screen and (max-width: 637px){
+	height:40px;
+	width:190px;
+}
+	@media screen and (max-width: 400px){
+	height:40px;
+	width:200px;
+}
 	
 }
 
-.send-button{
+.send{
+	&-button{
 	margin-top: 21px;
 	width:100px;
 	height: 28px;
@@ -47,19 +61,17 @@
 	background-color:$yellow-theme;
 	color:$main-text;
 	font-family:$main-header-font;
-}
-
-.send-button:hover{
+	}
+	&-button:hover{
 	background-color:$main-text;
 	color:$yellow-theme;
-}
-
-.send-button-div{
+	}
+	&-button-div{
 	text-align: center;
 	position: relative;
 	bottom:10px;
+	}
 }
-
 
 
 /**********************FORM STYLING*********************/
@@ -76,15 +88,12 @@
 
 }
 
-table{
-	position:relative;
-	bottom:10px;
-}
+
 .contact-form{
 	display:block;
 	position:relative;
 	margin:0 auto;
-	width:310px;
+	width:270px;
 	left:100px;
 	@media screen and (max-width: 955px){
 	position:relative;
@@ -94,17 +103,22 @@ table{
 	right:5px;
 	}
 	@media screen and (max-width: 753px){
-	right:150px;
-	width:360px;
+	right:30px;
+	margin:0;
 	bottom:40px;
 	}
 	@media screen and (max-width: 545px){
 	right:90px;
-	width:300px;
+	
+	}
+	@media screen and (max-width: 589px){
+	left:29px;
+	
+	
 	}
 	@media screen and (max-width: 470px){
 	left:30px;
-	width:400px;
+	
 	}
 
 }
@@ -146,4 +160,9 @@ table{
 	
 	width:180px;
 	}
+}
+
+table{
+	position:relative;
+	bottom:10px;
 }

@@ -63,6 +63,7 @@
 	margin:0;
 	@media screen and (max-width: 1173px){
 	left:300px;
+	
 	}
 	@media screen and (max-width: 959px){
 	left:360px;
@@ -74,19 +75,21 @@
 	@media screen and (max-width: 863px){
 	background-image:url(/images/speach-bubble3.png);
 	left:150px;
+	
+
 	}
 	@media screen and (max-width: 753px){
 	bottom:100px;
 	left:190px;
-	width:400px;
+	width:330px;
 	background-image:url(/images/speach-bubble4.png);
 	}
 	@media screen and (max-width: 500px){
 	left:120px;
-	width:400px;
+	
 	}
 	@media screen and (max-width: 545px){
-	right:100px;
+	left:130px;
 	}
 	@media screen and (max-width: 470px){
 	left:40px;

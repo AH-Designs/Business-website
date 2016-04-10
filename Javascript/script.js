@@ -2,7 +2,7 @@
 // carpentry div
 
 $( ".read-more-carpentry" ).click(function(){
-	$(this).parent().next(".div-appear-box");
+	
 	$(".carpentry-div").slideToggle("slow"); 
 
 });

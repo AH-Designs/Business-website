@@ -1,27 +1,37 @@
+
+/*NAV BAR*/
+
 .navbar{
 	background:$yellow-theme;
 	height:75px;
 	padding-left:30px;
-	width:100%;
+	
 	margin-bottom:0;
+	z-index:4;
 	@media screen and (max-width: 400px){
 	height:125px;
-	}
 
+	}
 }
 
-.navbar-nav{
+
+.navbar{
+	&-nav{
 	margin-left:80px;
 	margin-top:10px;
+
 }
 
-.navbar-nav li{
+	&-nav li{
 	padding-left:15px;
 	padding-right:15px;
 	font-family:$links-font;
 	font-size:16px;
 
 }
+}
+
+/*NAV BAR CONTACT NUMBER*/
 
 .contact-number{
 	float:right;
@@ -33,7 +43,17 @@
 			display:none;
 			}
 }
+
+/*NAV BAR COLLAPSED STYLEING*/
+
+/*TOGGLE MENU BOX STYLING*/
 .navbar-toggle.collapsed{
+
+
+@media screen and (max-width: 767px){
+	background-color:$main-text;
+
+}
 @media screen and (max-width: 400px){
 	height:55px;
 	width:60px;
@@ -45,15 +65,72 @@
 
 }
 
+.navbar-toggle.collapsed:hover{
+
+@media screen and (max-width: 767px){
+	background-color:$links-text;
+}
+
+}
+
+/*NAVBAR MENU BOX LINE STYLING*/
 span#icon-line{
+
+@media screen and (max-width: 767px){
+	background-color:$yellow-theme;
+}
+
 @media screen and (max-width: 400px){
-	width:30px; 
+	width:30px;
 	margin:4px;
 	padding-bottom:5px;
 	background-color:$yellow-theme;
 	}
 }
+/*NAVBAR TOGGLE BOX MENU LINKS STYLING*/
+
 
 .navbar-default .navbar-nav>li>a{
 	color:$main-text;
+	text-align:center;	
+	
 }
+.navbar-nav>li{
+	
+	margin-left:auto;
+	margin-right:auto;	
+}	
+/*nav bar collapse menu box*/
+
+.collapse{
+	width:97%;
+	
+@media screen and (max-width: 765px) {
+	
+	background-color:$links-text;
+
+}	
+	
+}
+
+.navbar-collapse{ 
+	
+	@media screen and (max-width: 765px) {
+padding-right:100px;
+margin-right:20px;
+
+}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+

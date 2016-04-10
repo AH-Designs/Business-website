@@ -85,39 +85,39 @@
 	}
 }
 
-.quote-button{
-	}
+
 
 /*SERVICES PAGE TYPOGRAPHY*/
- .services-info p{
+ .services{
+ 	&-info p{
 	margin-left:60px;
 	margin-right:60px;
 	margin-top:30px;
 }
 
 
-.services-info2 p{
+&-info2 p{
 	margin-top:30px;
-	margin-left:160px;
-	margin-right:160px;
 
 }
 
-.services-info h4{
+&-info h4{
 	margin-top:30px;
 	color:$links-text;
 	font-family:$links-font;
 	font-size:20px;
 }
 
-.services-info2 h4{
+&-info2 h4{
 	color:$links-text;
 	font-family:$links-font;
 }
 
-.read-more p {
+}
+
+#read-more {
 	color:$yellow-theme;
-	
+
 	
 }
 
@@ -185,15 +185,25 @@ p.about-us-para {
 	width:98%;
 	}
 @media screen and (max-width: 637px){
-	font-size:10px;
+	position:relative;
+	bottom:20px;
 	
 	}
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 555px){
 	
 	position:relative;
-	bottom:35px;
+	bottom:40px;
+	font-size:12px;
+	width:100%;
+	}
 
+@media screen and (max-width: 555px){
+	
+	position:relative;
+	bottom:20px;
+	font-size:10px;
+	width:100%;
 	}
 
 }
