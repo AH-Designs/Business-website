@@ -1,0 +1,16 @@
+{
+    "name": "ambermaria/business-website-master",
+    "authors": [
+        {
+            "name": "ah-designs",
+            "email": "ahdesigns@outlook.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.19",
+        "slim/slim": "2.6",
+        "twig/twig": "^1.24",
+        "slim/views": "^0.1.3"
+        
+    }
+}

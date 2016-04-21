@@ -1,0 +1,61 @@
+{% extends 'main.twig' %}
+
+{% block content %}
+
+<section class="home-main-section">
+
+  <div class="div-contact-image">
+
+          <h2 class="page-headers">CONTACT US 24/7</h2>
+      <div class="contact-div">
+          <p class="contact-para">Please fill in this form and we will contact you as soon as possible, if you prefer please call us!</p>
+          <ul class="areas-list">
+            <h4  class="list-header">AREAS COVERED</h4>
+            <li>Exeter</li>
+            <li>Exmouth</li>
+            <li>Credition</li>
+            <li>Dawlish</li>
+          </ul>
+
+         
+      </div>  
+
+  <div class="speach-bubble-image">
+    <div class="contact-form-div">
+            <form class="contact-form" action="" method="post">
+                
+                <table>
+
+                      <tr>
+                        <td><lable class="name-lable" for="name">Name:</lable></td>
+                        <td><input class="name-input" type="text" name="name"></td>    
+                        
+                      </tr>
+                      <tr>
+                        <td><lable class="email-lable" for="email">Email:</lable></td>
+                        <td><input class="email-input" type="text" name="email"></td>    
+                        
+                      </tr>
+                      <tr>
+                        <td><lable class="message-lable" for="message">Message:</lable></td>
+                        <td><textarea class="message-input" name="message"> Please include your telephone number in your message, so we can get in contact with you. Thank you.</textarea></td> <br/>  
+                        
+                 </table>
+
+                 <div class="send-button-div">
+                      <input class="send-button" type="submit" value="SEND">
+                </div>
+                
+            </form>
+      </div>
+  </div>
+
+
+  </div>
+
+  
+
+</section>
+
+
+{% endblock content %}
