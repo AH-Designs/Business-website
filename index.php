@@ -26,20 +26,69 @@ $view->parserExtensions = array(
 );
 
 $app->get('/',function() use($app){
-   $app->render("index.twig");
- });
+   $app->render('index.twig');
+ })->name('home');
 
-$app->get('/contact', function()use($app){
-  $app->render("contact.twig");
+$app->get('/contact',function() use($app){
+  $app->render('contact.twig');
+})->name('contact');
+
+$app->post('/contact', function()use($app){
+	$name=$app->request->post('name');
+	$email=$app->request->post('email');
+	$msg=$app->request->post('msg');
+
+
+
+if(!empty($name)&& !empty($email)&& !empty($msg)){
+
+	$cleanName = filter_var($name, FILTER_SANITIZE_STRING);
+	$cleanEmail = filter_var($email, FILTER_SANITIZE_EMAIL);
+	$cleanMsg = filter_var($msg, FILTER_SANITIZE_STRING);
+}else{
+
+	//message the user that theres a problem
+	$app->redirect('/contact');
+}
+
+//swiftmailer code
+
+$transport = swift_SendmailTransport::newInstance('/usr/sbin/sendmail -bs');
+
+$mailer = \Swift_Mailer::newInstance($transport);
+$message = \Swift_Message::newInstance();
+$message -> setSubject('Email from our website');
+$message -> setForm(array(
+	 $cleanEmail => $cleanName 
+));
+$message -> setTo(array('ahdesigns@outlook.com'));
+$message -> setBody($cleanMsg);
+
+
+//sending the message
+
+$result = $mailer->send($message);
+
+if ($result > 0){
+	//send message which says thank you
+$app->redirect ('/');
+}else{
+	//send message to the user that the message failer to send
+	//log that there was an error
+	$app->redirect('/contact');
+}
+
 });
 
-$app->get('/about', function()use($app){
-  $app->render("about.twig");
-});
 
-$app->get('/services', function()use($app){
-  $app->render("services.twig");
-});
+
+$app->get('/about',function() use($app){
+  $app->render('about.twig');
+})->name('about');
+
+$app->get('/services',function() use($app){
+  $app->render('services.twig');
+})->name('services');
 
 $app -> run();
 

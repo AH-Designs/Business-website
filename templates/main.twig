@@ -73,10 +73,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-                <li><a href="/">HOME</a></li>
-                <li><a href="/services">SERVICES</a></li>
-                <li><a href="/about">ABOUT</a></li>
-                <li><a href="/contact">CONTACT</a></li>
+                <li><a href="{{ baseUrl() }}">HOME</a></li>
+                <li><a href="{{ siteUrl('/services') }}">SERVICES</a></li>
+                <li><a href="{{ siteUrl('/about') }}">ABOUT</a></li>
+                <li><a href="{{ siteUrl('/contact') }}">CONTACT</a></li>
       </ul>
   <h3 class="contact-number">07983 576088</h3>    
     </div><!-- /.navbar-collapse -->
@@ -114,7 +114,7 @@
       </ul>
 
   </div>
-{%endblock footer%}
+{% endblock footer %}
 </footer>
 
 
