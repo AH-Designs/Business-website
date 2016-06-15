@@ -32,7 +32,7 @@ $app->get('/',function() use($app){
 $app->get('/contact',function() use($app){
   $app->render('contact.twig');
 })->name('contact');
-
+//to route the form
 $app->post('/contact', function()use($app){
 	$name=$app->request->post('name');
 	$email=$app->request->post('email');
@@ -40,7 +40,7 @@ $app->post('/contact', function()use($app){
 
 
 
-if(!empty($name)&& !empty($email)&& !empty($msg)){
+if(!empty($name)&& !empty ($email)&& !empty($msg)){
 
 	$cleanName = filter_var($name, FILTER_SANITIZE_STRING);
 	$cleanEmail = filter_var($email, FILTER_SANITIZE_EMAIL);

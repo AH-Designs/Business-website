@@ -24,63 +24,63 @@
 /*CALL TO ACTION TYPOGRAPHY*/
 
 .call-now{
-	font-size:55px;
+	font-size:3.438em;
 	color:$main-text;
 	font-family:$header-font;
 	@media screen and (max-width: 892px){
-	font-size:40px;
+	font-size:2.500em;
 	}
 	@media screen and (max-width: 637px){
-	font-size:33px;
+	font-size:2.063em;
 	}
 	@media screen and (max-width: 400px){
-	font-size:30px;
+	font-size:1.875em;
 	text-align:center;
 	}
 }
 
 .fix-it{
-	font-size:27px;
+	font-size:1.688em;
 	color:$main-text;
 	font-family:$header-font;
 	@media screen and (max-width: 892px){
-	font-size:19.5px;
+	font-size:1.219em;
 	}
 	@media screen and (max-width: 637px){
-	font-size:16px;
+	font-size:1.000em;
 	}
 	@media screen and (max-width: 400px){
-	font-size:14px;
+	font-size:0.875em;
 	text-align:center;
 	}
 }
 
 .quote-button{
-	font-size:22px;
+	font-size:1.375em;
 	font-family:$links-font;
 	@media screen and (max-width: 892px){
-	font-size:17px;
+	font-size:1.063em;
 	}
 		@media screen and (max-width: 637px){
-	font-size:15px;
+	font-size:0.938em;
 	}
 		@media screen and (max-width: 400px){
-	font-size:18px;
+	font-size:1.125em;
 	}
 }
 
 .phone-number{
-	font-size:55px;
+	font-size:3.438em;
 	color:$links-text;
 	font-family:$header-font;
 	@media screen and (max-width: 892px){
-	font-size:40px;
+	font-size:2.500em;
 	}
 	@media screen and (max-width: 637px){
-	font-size:33px;
+	font-size:2.063em;
 	}
 	@media screen and (max-width: 400px){
-	font-size:30px;
+	font-size:1.875em;
 	text-align:center;
 	}
 }
@@ -105,7 +105,7 @@
 	margin-top:30px;
 	color:$links-text;
 	font-family:$links-font;
-	font-size:20px;
+	font-size:1.250em;
 }
 
 &-info2 h4{
@@ -132,12 +132,12 @@
 }
 
 .contact-para{
-	font-size:15px;
+	font-size:0.938em;
 	margin-bottom:28px;
 	margin-top:28px;
 	font-family:$header-font;
 	@media screen and (max-width: 960px){
-	font-size:12px;
+	font-size:0.750em;
 	margin-top:70px;
 	bottom:50px;
 	position:relative;
@@ -159,7 +159,7 @@
 }
 
 .areas-list li{
-	font-size:17px;
+	font-size:1.250em;
 	font-family:$links-font;
 }
 
@@ -178,10 +178,10 @@
 
 p.about-us-para {
 @media screen and (max-width: 911px){
-	font-size:13px;
+	font-size:0.813em;
 	}
 @media screen and (max-width: 758px){
-	font-size:12px;
+	font-size:0.750em;
 	width:98%;
 	}
 @media screen and (max-width: 637px){
@@ -194,7 +194,7 @@ p.about-us-para {
 	
 	position:relative;
 	bottom:40px;
-	font-size:12px;
+	font-size:0.750em;
 	width:100%;
 	}
 
@@ -202,7 +202,7 @@ p.about-us-para {
 	
 	position:relative;
 	bottom:20px;
-	font-size:10px;
+	font-size:0.625em;
 	width:100%;
 	}
 
